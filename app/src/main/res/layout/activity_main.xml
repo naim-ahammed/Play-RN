@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#00BCD4"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play With Number"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="instructim: Please Enter a number between 1 to 10
+If your number will match the App's
+hidden number, you will win. So, let's
+start."
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/userET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="enter any number"
+        android:inputType="number"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Guess Number"
+        android:backgroundTint="#073F59"
+        />
+
+    <ImageView
+        android:layout_width="239dp"
+        android:layout_height="193dp"
+        android:src="@drawable/logo3"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="anim"
+        android:backgroundTint="#073F59"
+        />
+
+</LinearLayout>
